@@ -38,7 +38,7 @@ npm run verify:strict            # assets, timeline, copy, numbers
 pwsh -File ./render.ps1          # all four masters into out/
 ```
 
-The music take and the cut bed are committed. The staged pictures in `public/` are not: clone [archcanvas-promo-video](https://github.com/ChanMeng666/archcanvas-promo-video) beside this repo for `sync:assets`. A few clips are cut from raw OBS takes that are not in either repo (`npm run cut:clips`); bring your own footage to make a new film.
+The music take and the cut bed are committed. The staged pictures in `public/` are not: clone [archcanvas-promo-video](https://github.com/ChanMeng666/film-archcanvas-hero-and-shorts) beside this repo for `sync:assets`. A few clips are cut from raw OBS takes that are not in either repo (`npm run cut:clips`); bring your own footage to make a new film.
 
 ## Licence
 

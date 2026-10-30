@@ -5,7 +5,7 @@ the other three are the same 75s at the same codec and settings, so expect the s
 Git keeps every version of a binary forever, and four formats times a few review renders
 is a permanent gigabyte in a repo people clone to read a few thousand lines of
 TypeScript. They ship as **GitHub Release assets** on
-`ChanMeng666/archcanvas-promo-remotion` (private), which is what `.gitignore`'s `out/*`
+`ChanMeng666/film-archcanvas-zoom-out` (private), which is what `.gitignore`'s `out/*`
 rule is for.
 
 `gh` is installed and authenticated as `ChanMeng666`. **Nothing here creates a release on
@@ -87,7 +87,7 @@ hole.
 
 ```bash
 gh release create zoom-out-2026-09 \
-  --repo ChanMeng666/archcanvas-promo-remotion \
+  --repo ChanMeng666/film-archcanvas-zoom-out \
   --title "«Zoom Out» — 2026-09" \
   --notes-file docs/release-notes.md \
   --draft \
@@ -100,15 +100,15 @@ gh release create zoom-out-2026-09 \
 Review it in the browser, then publish:
 
 ```bash
-gh release view zoom-out-2026-09 --repo ChanMeng666/archcanvas-promo-remotion --web
-gh release edit zoom-out-2026-09 --repo ChanMeng666/archcanvas-promo-remotion --draft=false
+gh release view zoom-out-2026-09 --repo ChanMeng666/film-archcanvas-zoom-out --web
+gh release edit zoom-out-2026-09 --repo ChanMeng666/film-archcanvas-zoom-out --draft=false
 ```
 
 Re-uploading one format later (`--clobber` replaces an asset of the same name):
 
 ```bash
 gh release upload zoom-out-2026-09 out/<file>.mp4 --clobber \
-  --repo ChanMeng666/archcanvas-promo-remotion
+  --repo ChanMeng666/film-archcanvas-zoom-out
 ```
 
 **The repo is private, so the asset URLs are private too** — they need a GitHub login with

@@ -2,7 +2,7 @@
 
 A silent [Remotion](https://remotion.dev) film for [ArchCanvas](https://archcanvas.uk): one continuous zoom across the infinite canvas, told backwards. Four aspect ratios out of one edit. English, carried by text in world space and one music bed.
 
-This is deliberately the **second** film. The first lives in [`archcanvas-promo-video`](https://github.com/ChanMeng666/archcanvas-promo-video) (HyperFrames, 92s, centred text cards, chronological demo). Do not port it.
+This is deliberately the **second** film. The first lives in [`archcanvas-promo-video`](https://github.com/ChanMeng666/film-archcanvas-hero-and-shorts) (HyperFrames, 92s, centred text cards, chronological demo). Do not port it.
 
 | | |
 |---|---|
